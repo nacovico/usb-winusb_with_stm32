@@ -1,8 +1,8 @@
 /***
- * @Author: Cario YUAN
- * @Date: 2023-03-01 10:26:06
- * @LastEditTime: 2023-03-01 10:26:06
- * @email: cario.yuan@nio.com
+ * @Author:chen xin
+ * @Date: 
+ * @LastEditTime: 
+ * @email:  2396672495@qq.com 
  */
 #pragma once 
 
@@ -22,10 +22,10 @@
 #include <tchar.h>
 #include <string>
 
-/*usbÅäÖÃ*/
+/*usbï¿½ï¿½ï¿½ï¿½*/
 typedef struct {
-	bool  state;			// ´®¿Ú¿ª¹Ø±êÖ¾
-	HANDLE hCom;			// Éè±¸¾ä±ú
+	bool  state;			// ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½Ø±ï¿½Ö¾
+	HANDLE hCom;			// ï¿½è±¸ï¿½ï¿½ï¿½
 	WINUSB_INTERFACE_HANDLE winusbHandle;
 	TCHAR serialPort[MAX_PATH];	// DEEV APTH
 }usb_config_t;
@@ -55,7 +55,7 @@ private:
 #define _FRONTEND_VID_PID_H_
 
 /*-----------------------------------------------
-½Ó¿Úº¯Êý£º
+ï¿½Ó¿Úºï¿½ï¿½ï¿½ï¿½ï¿½
 	WDK_WhoAllVidPid
 ------------------------------------------------------------ */
 
